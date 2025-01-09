@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+.app__wrapper {
+}
+.app__install {
+    
+}
+.app__install-wrapper {
+    display: flex;
+
+}
+.app__logo {
+    height: 214px;
+    width: 214px;
+}
+
+.app__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38px;
+}
+.app__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__title h2 {
+    display: flex;
+    font-weight: 500;
+    font-size: 51px;
+    margin-bottom: -8px;
+}
+.app__company-name {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 17px;
+    color: rgba(3, 130, 88, 1);
+}
+.app__category {
+    font-weight: 300;
+    font-size: 17px;
+    color: rgba(144, 144, 144, 1);
+
+}
+.app__action {
+    display: flex;
+    margin-top: 16px;
+
+}
+.app__install-button {
+    border-radius: 47px;
+    width: 167px;
+    height: 38px;
+    background: rgba(3, 130, 88, 1);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 11.38px;
+
+}
+.app__link {
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    width: 167px;
+    color: rgba(11, 87, 208, 1);
+    background: transparent;
+    border: 1.67px solid rgba(11, 87, 208, 1);
+    border-radius: 29px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.app__link span {
+    margin-right: 8.36px;
+}
+.app__screens {
+    margin: 38px 0;
+    display: flex;
+    gap: 28px;
+}
+
+.app__screens img {
+ 
+}
+
+
+/* RATE APP */
+.app__rate {
+
+}
+.app__rate-info {
+    display: flex;
+    flex-direction: row;
+}
+.app__rate-count {
+    margin-right: 32px;
+}
+.app__rate-count h2 {
+    font-size: 57px;
+    font-weight: 400;
+    color: rgba(63, 63, 63, 1);
+}
+.app__rate-count ul {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+}
+.app__rate-count li {}
+.app__rate-count span {
+    font-size: 12px;
+    font-weight: 400;
+}
+.app__rate-progress {
+    display: flex;
+    flex-direction: row;
+}
+.app__rate-progress-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 4px;
+}
+.app__rate-progress-item {
+    display: flex;
+    gap: 4px;
+}
+
+.app__rate-progress li img, .app__rate-count li img {
+    height: 12px;
+    width: 12px;
+}
+
+.app__rate-progress-bar {
+    display: flex;
+    margin: 0 17px;
+}
+.app__rate-progress-bar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.app__rate-progress-bar li {
+    display: flex;  
+    background: rgba(227, 227, 227, 1);
+    width: 592px;
+    height: 10px;
+    border-radius: 999px;
+    list-style: none;
+}
+
+.app__rate-indicator {
+    background: rgba(3, 130, 88, 1);
+    border-radius: 999px;
+}
+
+
+.app__rate-indicator-1 {width: 80%;}
+.app__rate-indicator-2 {width: 20%;}
+.app__rate-indicator-3 {width: 5%;}
+.app__rate-indicator-4 {width: 0%;}
+.app__rate-indicator-5 {width: 0%;}
+
+
+.app__rate-btn {
+    margin: 15px 0;
+    width: 196px;
+    height: 40px;
+    background: transparent;
+    border-radius: 60px;
+    border: 2px solid rgba(3, 130, 88, 1); 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.app__rate-btn span {
+    font-size: 16px;
+    color: rgba(3, 130, 88, 1);
+}
+.app__rate-btn .app__rate-plus {
+    font-size: 21px;
+}
+
+
+
+.app__rate-text {
+    margin-top: 45px;
+}
+.app__rate-text-list {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+.app__rate-text-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 976px;
+}
+.author {
+    display: flex;
+    align-items: center;
+}
+.author__logo {
+    height: 32px;
+    width: 32px;
+}
+.author__name {
+    margin-left: 14px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+}
+.author__email {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(124, 124, 124, 1);
+    margin-left: 11px;
+}
+.result-rate {
+    display: flex;
+    gap: 16px;
+}
+.result-rate ul {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+.result-rate li {}
+.result-rate li img {
+    height: 12px;
+    width: 12px;
+}
+.result-rate__date {
+    color: rgba(3, 130, 88, 1);
+    font-size: 14px;
+}
+.author-desc {}
+.author-desc p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.app__read-more {
+    border: none;
+    background: transparent;
+}
+
+
+.app__read-more-plus {
+    color: rgba(3, 130, 88, 1);
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+}
+
+.app__read-more span {
+    color: rgba(3, 130, 88, 1);
+    font-size: 16px;
+}
